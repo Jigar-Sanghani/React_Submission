@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form label {
+    text-align: left;
+    margin: 5px 0;
+  }
+  
+  .auth-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .google-btn {
+    background: #ea4335;
+  }
+  
+  .google-btn:hover {
+    background: #c5221f;
+  }
+  
+  .reset-link {
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .reset-link:hover {
+    text-decoration: underline;
+  }
+  
+  .toggle-auth {
+    margin-top: 10px;
+  }
+  
+  .toggle-auth span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .toggle-auth span:hover {
+    text-decoration: underline;
+  }
+  
+  .message {
+    background: #ffdede;
+    color: red;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
