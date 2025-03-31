@@ -1,0 +1,18 @@
+{
+  "rooms": [
+    {
+      "id": "e043",
+      "name": "Jigar",
+      "type": "single",
+      "price": "100",
+      "description": "very best"
+    },
+    {
+      "id": "1247",
+      "name": "Jigar",
+      "type": "single",
+      "price": "22",
+      "description": "qw"
+    }
+  ]
+}
